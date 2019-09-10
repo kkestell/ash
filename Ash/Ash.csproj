@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Bool.cs" />
+    <Compile Remove="Tests\UnitTest1.cs" />
+    <Compile Remove="Tests\obj\Debug\netcoreapp2.2\Tests.Program.cs" />
+    <Compile Remove="Tests\obj\Debug\netcoreapp2.2\Tests.AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Expressions\" />
+    <Folder Include="Values\" />
+    <Folder Include="Expressions\String\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" />
+    <None Remove="Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" />
+    <None Remove="Tests\obj\Tests.csproj.nuget.g.props" />
+    <None Remove="Tests\obj\Tests.csproj.nuget.g.targets" />
+    <None Remove="Tests\obj\project.assets.json" />
+    <None Remove="Tests\obj\Tests.csproj.nuget.cache" />
+    <None Remove="Tests\obj\Debug\netcoreapp2.2\Tests.assets.cache" />
+    <None Remove="Tests\obj\Debug\netcoreapp2.2\Tests.csproj.CoreCompileInputs.cache" />
+    <None Remove="Tests\obj\Debug\netcoreapp2.2\Tests.AssemblyInfoInputs.cache" />
+    <None Remove="Tests\obj\Debug\netcoreapp2.2\Tests.dll" />
+    <None Remove="Tests\obj\Debug\netcoreapp2.2\Tests.pdb" />
+    <None Remove="Tests\bin\Debug\netcoreapp2.2\Tests.runtimeconfig.json" />
+    <None Remove="Tests\bin\Debug\netcoreapp2.2\Tests.runtimeconfig.dev.json" />
+    <None Remove="Tests\obj\Debug\netcoreapp2.2\Tests.csproj.FileListAbsolute.txt" />
+  </ItemGroup>
+</Project>
